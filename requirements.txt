@@ -1,0 +1,7 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+pandas==2.1.1
+langchain-google-genai==1.0.8
+langchain-core==0.2.38
+Werkzeug==2.3.7
+python-dotenv==1.0.0
