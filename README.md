@@ -33,29 +33,29 @@ An automated email campaign tool that generates personalized emails using AI and
 
 ### 1. Clone the Repository
 
-\`\`\`bash
+
 git clone https://github.com/yourusername/leadgen-emailer.git
 cd leadgen-emailer
-\`\`\`
+
 
 ### 2. Set Up Virtual Environment
 
-\`\`\`bash
+
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\\Scripts\\activate
-\`\`\`
+
 
 ### 3. Install Dependencies
 
-\`\`\`bash
+
 pip install -r requirements.txt
-\`\`\`
+
 
 ### 4. Run the Application
 
-\`\`\`bash
+
 python app.py
-\`\`\`
+
 
 The application will be available at \`http://localhost:5000\`
 
@@ -88,18 +88,6 @@ hr@techcorp.com,TechCorp,Software Engineer
 jobs@startup.io,StartupIO,Full Stack Developer
 \`\`\`
 
-## 📁 Project Structure
-
-\`\`\`
-leadgen-emailer/
-├── app.py              # Flask backend
-├── index.html          # Frontend interface
-├── requirements.txt    # Python dependencies
-├── uploads/           # Temporary file storage
-├── logs/              # Activity logs
-├── .env               # Environment variables (create this)
-└── README.md          # This file
-\`\`\`
 
 ## 🔒 Security Best Practices
 
